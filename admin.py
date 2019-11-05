@@ -7,8 +7,8 @@ class StudentAdmin(admin.ModelAdmin):
 admin.site.register(models.Student, StudentAdmin)
 
 
-class DepartementAdmin(admin.ModelAdmin):
+class DepartmentAdmin(admin.ModelAdmin):
     pass
 
-admin.site.register(models.Departement,DepartementAdmin)
+admin.site.register(models.Department,DepartmentAdmin)
 
